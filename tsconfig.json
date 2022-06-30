@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "target": "ES5",
+        "module": "ESNext",
+        "lib": ["ESNext", "DOM"],
+        "outDir": "./types",
+        "declaration": true,
+        "emitDeclarationOnly": true /* 仅生成declaration */,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "useDefineForClassFields": true,
+        "noImplicitReturns": true,
+        "esModuleInterop": true,
+        "jsx": "react-jsx",
+        "paths": {
+            "lib/*": ["./src/*"]
+        }
+    },
+    "exclude": ["node_modules"],
+    "include": ["src/**/*.ts", "./html"]
+}
