@@ -1,12 +1,5 @@
 import * as ExcelJS from "exceljs/dist/exceljs.min.js";
-
-import {
-    tableHead,
-    getHeadRowMerge,
-    headInfo,
-    getHeadRowMergeOption,
-} from './tableHeadTool';
-import { downloadBuffer } from './download';
+import { downloadBuffer, getHeadRowMerge, getHeadRowMergeOption, headInfo, tableHead } from '@fiveroom/js-tools';
 
 export interface xlsxHead extends tableHead {
     children: Partial<xlsxHead>[];

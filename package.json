@@ -55,7 +55,8 @@
         }
     },
     "dependencies": {
-        "exceljs": "^4.3.0"
+        "exceljs": "^4.3.0",
+        "@fiveroom/js-tools": "latest"
     },
     "browser": "./dist/brower.js"
 }
