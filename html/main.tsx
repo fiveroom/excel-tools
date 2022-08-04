@@ -1,14 +1,11 @@
 import { render } from "react-dom";
 import { useState } from "react";
 import { Workbook } from "exceljs";
-import { getHeadRowMerge, handleBorderRight, handleColSpan, handleRowSpan, tableHead } from "lib/tableHeadTool";
-import { xlsxHeadArr } from "lib/exceljsExtend";
-import { ExportEx } from "lib/exceljsExtend";
+import { ExportEx, xlsxHeadArr } from '../release';
 import { faker } from "@faker-js/faker";
 import { headsXNGD, testData } from "./mock/data01";
-import { downloadBuffer } from 'lib/download';
 import { DynamicTable, ViewXlsx } from './dynamicTable';
-import { listToTree } from '../release';
+import { downloadBuffer, handleBorderRight, handleColSpan, handleRowSpan, tableHead } from '@fiveroom/js-tools';
 
 
 function App() {

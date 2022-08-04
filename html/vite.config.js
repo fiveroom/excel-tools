@@ -9,5 +9,5 @@ export default defineConfig({
             lib: path.resolve(__dirname, "../src"),
         },
     },
-    root: path.resolve(__dirname, "html"),
+    root: __dirname,
 });

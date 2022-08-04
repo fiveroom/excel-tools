@@ -1,10 +1,9 @@
-import { handleColSpan, handleRowSpan, tableHead } from 'lib/tableHeadTool';
 
 import './dynamicTable.less';
 import { useState } from 'react';
-import { getTreeNodeById, listToTree } from 'lib/tree';
 import { Workbook } from 'exceljs';
-import { ExportEx } from 'lib/exceljsExtend';
+import { ExportEx } from '../release';
+import { getTreeNodeById, handleColSpan, handleRowSpan, tableHead } from '@fiveroom/js-tools';
 
 
 const createHeadArr: () => tableHead[] = () => {
