@@ -10,11 +10,11 @@
         "dev": "vite --config ./html/vite.config.js"
     },
     "bugs": {
-        "url": "https://github.com/fiveroom/export-excel/issues"
+        "url": "https://github.com/fiveroom/excel-tools/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/fiveroom/export-excel"
+        "url": "https://github.com/fiveroom/excel-tools"
     },
     "author": "",
     "license": "ISC",
