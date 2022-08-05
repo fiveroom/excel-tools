@@ -9,10 +9,17 @@
     "author": "fiveroom",
     "license": "ISC",
     "types": "./index.d.ts",
-    "homepage": "https://github.com/fiveroom/nabs-tools",
+    "homepage": "https://github.com/fiveroom/export-excel",
     "sideEffects": true,
     "dependencies": {
         "exceljs": "^4.3.0",
         "@fiveroom/js-tools": "latest"
-    }
+    },
+    "bugs": {
+        "url": "https://github.com/fiveroom/export-excel/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fiveroom/export-excel"
+    },
 }

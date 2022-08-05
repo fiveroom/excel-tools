@@ -1,5 +1,5 @@
 {
-    "name": "@fiveroom/export-excel",
+    "name": "@fiveroom/excel-tools",
     "version": "0.0.1",
     "description": "",
     "main": "dist/index.js",
@@ -9,9 +9,12 @@
         "postbuild": "prettier --write ./release",
         "dev": "vite --config ./html/vite.config.js"
     },
+    "bugs": {
+        "url": "https://github.com/fiveroom/export-excel/issues"
+    },
     "repository": {
         "type": "git",
-        "url": "https://github.com//fiveroom/export-excel.git"
+        "url": "https://github.com/fiveroom/export-excel"
     },
     "author": "",
     "license": "ISC",

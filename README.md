@@ -1,16 +1,17 @@
 # export-excel
 excel 处理基于[exceljs](https://github.com/exceljs/exceljs/blob/master/README_zh.md)
 
+本工具只是提供了一种自动处理普通树表头的方法
 ## 下载
 
 ```shell
-npm install --save @fiveroom/js-tools
+npm install --save @fiveroom/excel-tools
 ```
 
 ### 导入
 
 ```ts
-import { ExportEx } from "@fiveroom/export-excel";
+import { ExportEx } from "@fiveroom/excel-tools";
 ```
 
 ## 使用
