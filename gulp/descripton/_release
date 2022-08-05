@@ -1,5 +1,5 @@
 {
-    "name": "@fiveroom/excel-tools",
+    "name": "@fiveroom/export-excel",
     "version": "{{version}}",
     "description": "",
     "main": "index.js",
@@ -15,11 +15,9 @@
         "exceljs": "^4.3.0",
         "@fiveroom/js-tools": "latest"
     },
-    "bugs": {
-        "url": "https://github.com/fiveroom/export-excel/issues"
-    },
+    "bugs": "https://github.com/fiveroom/export-excel/issues",
     "repository": {
         "type": "git",
-        "url": "https://github.com/fiveroom/export-excel"
+        "url": "https://github.com/fiveroom/export-excel.git"
     },
 }
